@@ -22,10 +22,14 @@ namespace GuessingGame
                     foundNum = true;
                 }
                 else {
-                userTriesRemaining--;
-                Console.WriteLine("Nah that aint it, you have " + $"{userTriesRemaining}" + " tries left");
+                    userTriesRemaining--;
+                    if(parsedGuess > secretNum) {
+                        Console.WriteLine("Nah that aint it, your guess was higher than the secret number, you have " + $"{userTriesRemaining}" + " tries left");
+                    }
+                    else {
+                        Console.WriteLine("Nah that aint it, your guess was lower than the secret number, you have " + $"{userTriesRemaining}" + " tries left");
+                    }
                 }
-                
             }
         }
     }
