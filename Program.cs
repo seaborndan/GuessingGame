@@ -9,11 +9,10 @@ namespace GuessingGame
         {
             Random r = new Random();
 
-            int secretNum = r.Next(1, 100);
+            int secretNum = r.Next(1, 101);
 
             Console.WriteLine("Guess the secret number: ");
             bool foundNum = false;  
-            int userTries = 0;
             int userTriesRemaining = 4;
             while((foundNum != true) && (userTriesRemaining != 0)) {
                 string userGuess = Console.ReadLine();
@@ -23,9 +22,8 @@ namespace GuessingGame
                     foundNum = true;
                 }
                 else {
-                userTries++;
-                Console.WriteLine("Nah that aint it, that was attempt # " + $"{userTries}");
                 userTriesRemaining--;
+                Console.WriteLine("Nah that aint it, you have " + $"{userTriesRemaining}" + " tries left");
                 }
                 
             }
