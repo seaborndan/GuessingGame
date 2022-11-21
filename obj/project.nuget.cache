@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zYA3VlvXi5NNgum3tjwIEeOClcnTjB0WcIbJLFsaUtlFMD7Z9yG5ke1gFqviPrRDTrI4o5aQpLtwKaHg7p0yHA==",
+  "dgSpecHash": "mOzqyFaw8cuuLP2agTOKbGEuEm30/wXBu0MecqaobC1KEDqofcp4xrE+49p3iJDemB0rDbKNKy+Q7tFbEIJ5mA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Seaborn\\workspace\\csharp\\GuessingGame\\GuessingGame.csproj",
+  "projectFilePath": "C:\\Users\\Seaborn\\workspace\\cSharp\\GuessingGame\\GuessingGame.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
